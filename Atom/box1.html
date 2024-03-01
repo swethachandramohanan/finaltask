@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"/>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+  
+  
+   
+    <script>
+        $(document).ready(function(){
+            $('.variable-width').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="variable-width">
+        <div class="custom-box">
+            <h6>Review 1</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique aliquet urna.</p>
+        </div>
+        <div class="custom-box">
+            <h6>Review 2</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique aliquet urna.</p>
+        </div>
+        <!-- Add more slides here -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.border{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 426px;
+    height: 243px;
+    left: 51px;
+    top: 1484px;
+    
+    background: #F9F9F9;
+
+    .image{
+        position: absolute;
+width: 84px;
+height: 84px;
+left: 547px;
+top: 1442px;
+
+    }
+    .text{
+position: absolute;
+width: 346px;
+height: 63px;
+left: 89px;
+top: 1586px;
+    }
+}.more-content {
+    display: none;
+  }
+  
+  .read-more-state {
+    display: none;
+  }
+  
+  .read-more-trigger {
+    cursor: pointer;
+  }
+  
+  .read-more-state:checked ~ .more-content {
+    display: block;
+  }
+  
+  .read-more-state:checked + .read-more-trigger {
+    display: none;
+  }
+  

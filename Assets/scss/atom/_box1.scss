@@ -1,0 +1,22 @@
+
+.custom-box {
+    width: 200px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.custom-box h6 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.custom-box p {
+    font-size: 12px;
+    margin: 0;
+}
+.custom-box:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}

@@ -1,0 +1,40 @@
+
+.container-fluid {
+    &.bgblue{
+        background-color: rgb(23, 23, 110);
+    }
+    
+    .col-lg-3 {
+      img {
+        border-radius: 50%;
+        border: 2px solid #4682b4;
+        width: 100%;
+      }
+    }
+    
+    .col-lg-9 {
+      background-color: #add8e6;
+      
+      .row {
+        background-color: #87ceeb;
+        
+        h5 {
+          color: #000080;
+        }
+        
+        p {
+          color: #00008b;
+        }
+        
+        .col-lg-3 {
+          button {
+            background-color: #4169e1;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+          }
+        }
+      }
+    }
+  }
+  
